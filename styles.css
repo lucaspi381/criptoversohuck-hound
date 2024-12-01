@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2e;
+    color: #fff;
+    line-height: 1.6;
+}
+.hero {
+    text-align: center;
+    padding: 20px;
+    background: #121212;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #ffc107;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.buttons .btn {
+    text-decoration: none;
+    color: #fff;
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s ease;
+}
+.buttons .btn:hover {
+    background: #0056b3;
+}
+main {
+    padding: 20px;
+}
+.sobre, .memes, .faq {
+    margin-bottom: 40px;
+}
+h2 {
+    color: #ffc107;
+}
+.meme-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.meme-item {
+    background: #343a40;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fff;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #121212;
+    color: #ccc;
+}
